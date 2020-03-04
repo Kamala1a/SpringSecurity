@@ -1,0 +1,15 @@
+package com.example.demo.security;
+
+import java.util.Set;
+import com.google.common.collect.Sets;
+
+public enum ApplicationUserRole {
+	STUDENT(Sets.newHashSet()),
+	ADMIN(Sets.newHashSet(ApplicationUserPermissions));
+	
+	private final Set<ApplicationUserPermissions> permissions;
+	
+	ApplicationUserRole(Set<ApplicationUserPermissions> permissions) {
+		this.permissions = permissions;
+	}
+}

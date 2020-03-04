@@ -1,0 +1,12 @@
+package com.example.demo.security;
+
+import java.util.Set;
+
+public enum ApplicationUserRole {
+	STUDENT,
+	ADMIN
+	
+	private final Set<ApplicationPermission> permission;
+	
+	ApplicationUserRole
+}

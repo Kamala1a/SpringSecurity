@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\Workspace\Amicus\.metadata\.plugins\org.eclipse.jdt.core
+2454219631.index
+3996333945.index

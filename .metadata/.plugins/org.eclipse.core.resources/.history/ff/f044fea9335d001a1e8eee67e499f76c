@@ -1,0 +1,5 @@
+package com.springSecurity.configuration;
+
+public class SecurityConfiguration {
+
+}
